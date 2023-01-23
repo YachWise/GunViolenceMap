@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4842A5297E170A00FEA6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4842A4297E170A00FEA6BE /* AppDelegate.swift */; };
+		AC4842A7297E170A00FEA6BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4842A6297E170A00FEA6BE /* SceneDelegate.swift */; };
+		AC4842A9297E170A00FEA6BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4842A8297E170A00FEA6BE /* ViewController.swift */; };
+		AC4842AC297E170A00FEA6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4842AA297E170A00FEA6BE /* Main.storyboard */; };
+		AC4842AE297E170B00FEA6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4842AD297E170B00FEA6BE /* Assets.xcassets */; };
+		AC4842B1297E170B00FEA6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4842AF297E170B00FEA6BE /* LaunchScreen.storyboard */; };
+		AC4842BC297E170B00FEA6BE /* GunViolenceMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4842BB297E170B00FEA6BE /* GunViolenceMapTests.swift */; };
+		AC4842C6297E170B00FEA6BE /* GunViolenceMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4842C5297E170B00FEA6BE /* GunViolenceMapUITests.swift */; };
+		AC4842C8297E170B00FEA6BE /* GunViolenceMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4842C7297E170B00FEA6BE /* GunViolenceMapUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4842B8297E170B00FEA6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC484299297E170A00FEA6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4842A0297E170A00FEA6BE;
+			remoteInfo = GunViolenceMap;
+		};
+		AC4842C2297E170B00FEA6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC484299297E170A00FEA6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4842A0297E170A00FEA6BE;
+			remoteInfo = GunViolenceMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC4842A1297E170A00FEA6BE /* GunViolenceMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunViolenceMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4842A4297E170A00FEA6BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC4842A6297E170A00FEA6BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC4842A8297E170A00FEA6BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC4842AB297E170A00FEA6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC4842AD297E170B00FEA6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4842B0297E170B00FEA6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC4842B2297E170B00FEA6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4842B7297E170B00FEA6BE /* GunViolenceMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunViolenceMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4842BB297E170B00FEA6BE /* GunViolenceMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunViolenceMapTests.swift; sourceTree = "<group>"; };
+		AC4842C1297E170B00FEA6BE /* GunViolenceMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunViolenceMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4842C5297E170B00FEA6BE /* GunViolenceMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunViolenceMapUITests.swift; sourceTree = "<group>"; };
+		AC4842C7297E170B00FEA6BE /* GunViolenceMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunViolenceMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC48429E297E170A00FEA6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4842B4297E170B00FEA6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4842BE297E170B00FEA6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC484298297E170A00FEA6BE = {
+			isa = PBXGroup;
+			children = (
+				AC4842A3297E170A00FEA6BE /* GunViolenceMap */,
+				AC4842BA297E170B00FEA6BE /* GunViolenceMapTests */,
+				AC4842C4297E170B00FEA6BE /* GunViolenceMapUITests */,
+				AC4842A2297E170A00FEA6BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4842A2297E170A00FEA6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4842A1297E170A00FEA6BE /* GunViolenceMap.app */,
+				AC4842B7297E170B00FEA6BE /* GunViolenceMapTests.xctest */,
+				AC4842C1297E170B00FEA6BE /* GunViolenceMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4842A3297E170A00FEA6BE /* GunViolenceMap */ = {
+			isa = PBXGroup;
+			children = (
+				AC4842A4297E170A00FEA6BE /* AppDelegate.swift */,
+				AC4842A6297E170A00FEA6BE /* SceneDelegate.swift */,
+				AC4842A8297E170A00FEA6BE /* ViewController.swift */,
+				AC4842AA297E170A00FEA6BE /* Main.storyboard */,
+				AC4842AD297E170B00FEA6BE /* Assets.xcassets */,
+				AC4842AF297E170B00FEA6BE /* LaunchScreen.storyboard */,
+				AC4842B2297E170B00FEA6BE /* Info.plist */,
+			);
+			path = GunViolenceMap;
+			sourceTree = "<group>";
+		};
+		AC4842BA297E170B00FEA6BE /* GunViolenceMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4842BB297E170B00FEA6BE /* GunViolenceMapTests.swift */,
+			);
+			path = GunViolenceMapTests;
+			sourceTree = "<group>";
+		};
+		AC4842C4297E170B00FEA6BE /* GunViolenceMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4842C5297E170B00FEA6BE /* GunViolenceMapUITests.swift */,
+				AC4842C7297E170B00FEA6BE /* GunViolenceMapUITestsLaunchTests.swift */,
+			);
+			path = GunViolenceMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4842A0297E170A00FEA6BE /* GunViolenceMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4842CB297E170B00FEA6BE /* Build configuration list for PBXNativeTarget "GunViolenceMap" */;
+			buildPhases = (
+				AC48429D297E170A00FEA6BE /* Sources */,
+				AC48429E297E170A00FEA6BE /* Frameworks */,
+				AC48429F297E170A00FEA6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GunViolenceMap;
+			productName = GunViolenceMap;
+			productReference = AC4842A1297E170A00FEA6BE /* GunViolenceMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4842B6297E170B00FEA6BE /* GunViolenceMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4842CE297E170B00FEA6BE /* Build configuration list for PBXNativeTarget "GunViolenceMapTests" */;
+			buildPhases = (
+				AC4842B3297E170B00FEA6BE /* Sources */,
+				AC4842B4297E170B00FEA6BE /* Frameworks */,
+				AC4842B5297E170B00FEA6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4842B9297E170B00FEA6BE /* PBXTargetDependency */,
+			);
+			name = GunViolenceMapTests;
+			productName = GunViolenceMapTests;
+			productReference = AC4842B7297E170B00FEA6BE /* GunViolenceMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC4842C0297E170B00FEA6BE /* GunViolenceMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4842D1297E170B00FEA6BE /* Build configuration list for PBXNativeTarget "GunViolenceMapUITests" */;
+			buildPhases = (
+				AC4842BD297E170B00FEA6BE /* Sources */,
+				AC4842BE297E170B00FEA6BE /* Frameworks */,
+				AC4842BF297E170B00FEA6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4842C3297E170B00FEA6BE /* PBXTargetDependency */,
+			);
+			name = GunViolenceMapUITests;
+			productName = GunViolenceMapUITests;
+			productReference = AC4842C1297E170B00FEA6BE /* GunViolenceMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC484299297E170A00FEA6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AC4842A0297E170A00FEA6BE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					AC4842B6297E170B00FEA6BE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = AC4842A0297E170A00FEA6BE;
+					};
+					AC4842C0297E170B00FEA6BE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = AC4842A0297E170A00FEA6BE;
+					};
+				};
+			};
+			buildConfigurationList = AC48429C297E170A00FEA6BE /* Build configuration list for PBXProject "GunViolenceMap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC484298297E170A00FEA6BE;
+			productRefGroup = AC4842A2297E170A00FEA6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4842A0297E170A00FEA6BE /* GunViolenceMap */,
+				AC4842B6297E170B00FEA6BE /* GunViolenceMapTests */,
+				AC4842C0297E170B00FEA6BE /* GunViolenceMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC48429F297E170A00FEA6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4842B1297E170B00FEA6BE /* LaunchScreen.storyboard in Resources */,
+				AC4842AE297E170B00FEA6BE /* Assets.xcassets in Resources */,
+				AC4842AC297E170A00FEA6BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4842B5297E170B00FEA6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4842BF297E170B00FEA6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC48429D297E170A00FEA6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4842A9297E170A00FEA6BE /* ViewController.swift in Sources */,
+				AC4842A5297E170A00FEA6BE /* AppDelegate.swift in Sources */,
+				AC4842A7297E170A00FEA6BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4842B3297E170B00FEA6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4842BC297E170B00FEA6BE /* GunViolenceMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4842BD297E170B00FEA6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4842C6297E170B00FEA6BE /* GunViolenceMapUITests.swift in Sources */,
+				AC4842C8297E170B00FEA6BE /* GunViolenceMapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4842B9297E170B00FEA6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4842A0297E170A00FEA6BE /* GunViolenceMap */;
+			targetProxy = AC4842B8297E170B00FEA6BE /* PBXContainerItemProxy */;
+		};
+		AC4842C3297E170B00FEA6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4842A0297E170A00FEA6BE /* GunViolenceMap */;
+			targetProxy = AC4842C2297E170B00FEA6BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC4842AA297E170A00FEA6BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4842AB297E170A00FEA6BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC4842AF297E170B00FEA6BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4842B0297E170B00FEA6BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4842C9297E170B00FEA6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC4842CA297E170B00FEA6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4842CC297E170B00FEA6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GunViolenceMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.GunViolenceMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC4842CD297E170B00FEA6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GunViolenceMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.GunViolenceMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC4842CF297E170B00FEA6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.GunViolenceMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GunViolenceMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GunViolenceMap";
+			};
+			name = Debug;
+		};
+		AC4842D0297E170B00FEA6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.GunViolenceMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GunViolenceMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GunViolenceMap";
+			};
+			name = Release;
+		};
+		AC4842D2297E170B00FEA6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.GunViolenceMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GunViolenceMap;
+			};
+			name = Debug;
+		};
+		AC4842D3297E170B00FEA6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.GunViolenceMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GunViolenceMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC48429C297E170A00FEA6BE /* Build configuration list for PBXProject "GunViolenceMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4842C9297E170B00FEA6BE /* Debug */,
+				AC4842CA297E170B00FEA6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4842CB297E170B00FEA6BE /* Build configuration list for PBXNativeTarget "GunViolenceMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4842CC297E170B00FEA6BE /* Debug */,
+				AC4842CD297E170B00FEA6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4842CE297E170B00FEA6BE /* Build configuration list for PBXNativeTarget "GunViolenceMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4842CF297E170B00FEA6BE /* Debug */,
+				AC4842D0297E170B00FEA6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4842D1297E170B00FEA6BE /* Build configuration list for PBXNativeTarget "GunViolenceMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4842D2297E170B00FEA6BE /* Debug */,
+				AC4842D3297E170B00FEA6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC484299297E170A00FEA6BE /* Project object */;
+}
