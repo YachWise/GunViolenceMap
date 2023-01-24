@@ -16,6 +16,9 @@
 		AC4842BC297E170B00FEA6BE /* GunViolenceMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4842BB297E170B00FEA6BE /* GunViolenceMapTests.swift */; };
 		AC4842C6297E170B00FEA6BE /* GunViolenceMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4842C5297E170B00FEA6BE /* GunViolenceMapUITests.swift */; };
 		AC4842C8297E170B00FEA6BE /* GunViolenceMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4842C7297E170B00FEA6BE /* GunViolenceMapUITestsLaunchTests.swift */; };
+		AC4842D7297E173100FEA6BE /* all_incidents.csv in Resources */ = {isa = PBXBuildFile; fileRef = AC4842D5297E173100FEA6BE /* all_incidents.csv */; };
+		AC4842D8297E173100FEA6BE /* mass_shootings.csv in Resources */ = {isa = PBXBuildFile; fileRef = AC4842D6297E173100FEA6BE /* mass_shootings.csv */; };
+		AC4842DB297E17D900FEA6BE /* MassShootingStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4842DA297E17D900FEA6BE /* MassShootingStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		AC4842C1297E170B00FEA6BE /* GunViolenceMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunViolenceMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4842C5297E170B00FEA6BE /* GunViolenceMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunViolenceMapUITests.swift; sourceTree = "<group>"; };
 		AC4842C7297E170B00FEA6BE /* GunViolenceMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunViolenceMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC4842D5297E173100FEA6BE /* all_incidents.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = all_incidents.csv; sourceTree = "<group>"; };
+		AC4842D6297E173100FEA6BE /* mass_shootings.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mass_shootings.csv; sourceTree = "<group>"; };
+		AC4842DA297E17D900FEA6BE /* MassShootingStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassShootingStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		AC4842A3297E170A00FEA6BE /* GunViolenceMap */ = {
 			isa = PBXGroup;
 			children = (
+				AC4842D9297E17CD00FEA6BE /* Structs */,
+				AC4842D4297E172600FEA6BE /* Resources */,
 				AC4842A4297E170A00FEA6BE /* AppDelegate.swift */,
 				AC4842A6297E170A00FEA6BE /* SceneDelegate.swift */,
 				AC4842A8297E170A00FEA6BE /* ViewController.swift */,
@@ -125,6 +133,23 @@
 				AC4842C7297E170B00FEA6BE /* GunViolenceMapUITestsLaunchTests.swift */,
 			);
 			path = GunViolenceMapUITests;
+			sourceTree = "<group>";
+		};
+		AC4842D4297E172600FEA6BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC4842D5297E173100FEA6BE /* all_incidents.csv */,
+				AC4842D6297E173100FEA6BE /* mass_shootings.csv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC4842D9297E17CD00FEA6BE /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				AC4842DA297E17D900FEA6BE /* MassShootingStruct.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4842D8297E173100FEA6BE /* mass_shootings.csv in Resources */,
+				AC4842D7297E173100FEA6BE /* all_incidents.csv in Resources */,
 				AC4842B1297E170B00FEA6BE /* LaunchScreen.storyboard in Resources */,
 				AC4842AE297E170B00FEA6BE /* Assets.xcassets in Resources */,
 				AC4842AC297E170A00FEA6BE /* Main.storyboard in Resources */,
@@ -261,6 +288,7 @@
 				AC4842A9297E170A00FEA6BE /* ViewController.swift in Sources */,
 				AC4842A5297E170A00FEA6BE /* AppDelegate.swift in Sources */,
 				AC4842A7297E170A00FEA6BE /* SceneDelegate.swift in Sources */,
+				AC4842DB297E17D900FEA6BE /* MassShootingStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
